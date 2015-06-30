@@ -3,6 +3,9 @@
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Slack](https://slack.com) using the OAuth 2.0 API.
 
+Changed the strategy implementation to pull username and user info into the profile object so that
+this module works with passport libraries in Sails.js
+
 ## Install
 
     $ npm install passport-slack
